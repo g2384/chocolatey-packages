@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://download.microsoft.com/download/A/9/8/A98CF446-A38E-4B0A-A967-F93FAB474AE0/en-US/18.6.0.0/x86/msoledbsql.msi'
-$url64      = 'https://download.microsoft.com/download/A/9/8/A98CF446-A38E-4B0A-A967-F93FAB474AE0/en-US/18.6.0.0/x64/msoledbsql.msi'
+$url        = 'https://download.microsoft.com/download/b/e/5/be58d85a-66dd-4dac-87d4-30d224a317b9/en-US/19.1.0.0/x86/msoledbsql.msi'
+$url64      = 'https://download.microsoft.com/download/b/e/5/be58d85a-66dd-4dac-87d4-30d224a317b9/en-US/19.1.0.0/x64/msoledbsql.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
